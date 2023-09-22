@@ -81,7 +81,7 @@ public class Exercises2 {
                     // 契約社員レコード出力
                     pWriter2.print(sCode);
                     String s1 = String.format("%-11s", name);
-                    pWriter2.print(s1.replaceAll(" ", "　"));
+                    pWriter2.print(s1.replaceAll(" ", "　")); //全角スペースに変換して出力
                     pWriter2.print(eraYmd);
                     pWriter2.format("%-14s",telNo);
                     pWriter2.print(postalNo);
